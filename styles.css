@@ -256,10 +256,7 @@ h4 span {
     
 }
 
-#radio h2 .material-symbols-outlined {
-	font-size: 2em;
-	vertical-align: middle;
-}
+
 
 #radio h3 {
 	font-size: 140%;
@@ -296,6 +293,14 @@ h4 span {
 	color: #000000;
 	padding-left: 400px;
 }
+
+#commentator .tomataro{
+	margin-top:40px;
+}
+
+
+
+
 
 #personality h2,
 #commentator h2 {
@@ -420,6 +425,11 @@ h4 span {
 
 
 @media screen and (min-width: 641px) {
+
+
+
+
+	
 
 	.br-736,
 	.view-pc {
@@ -552,12 +562,6 @@ h4 span {
 		text-align: center;
 	}
 
-	#radio h2 {
-		font-size: 150%;
-		margin-bottom: 20px;
-		text-align: center;
-		letter-spacing: -1px;
-	}
 
 	#radio_style,
 	#lght02 {
@@ -565,9 +569,6 @@ h4 span {
 		margin: 10px 0;
 	}
 
-	#radio h2 .material-symbols-outlined {
-		font-size: 1.2em;
-	}
 
 	#radio img {
 		margin-bottom: 20px;
@@ -619,9 +620,7 @@ h4 span {
 		display: block;
 	}
 
-	#radio h2 {
-		font-size: 120%;
-	}
+
 
 	body {
 		font-size: 14px;
@@ -648,23 +647,74 @@ h4 span {
 	/* Show the button when scrolled */
 }
 
-/* For 1024 Resolution */  
-@media only screen   
-and (min-device-width : 768px)   
-and (max-device-width : 1024px)  
-{ 
+@media (max-width: 600px) {
+
+
+
+	
+#cfa h4 {
+	margin-bottom: 20px;
+	font-size: 20px;
+    text-align:justify;
+    margin-left: 100px;
+	font-weight: bold;
+	color: #fff;
+    
+}
+
+
 
 
 	
 
+	#radio h3 {
+		margin-bottom: 20px;
+		font-size: 13px;
+		text-align:justify;
+	
+	
+		
+	}
 
+	#commentator p{
+		font-size: 0.70em;
+	}
+
+	#sec02link {
+		padding-top: 20px;
+		font-size: 10px;
+	}
+
+	#radio img {
+		width: 20px;
+		height: 24px;
+		padding-bottom: 1px;
+		
+	}
+
+	#radio h2 {
+		margin-bottom: 20px;
+		font-size: 20px;
+		text-decoration-line: underline
+		
+	}
+
+	#commentator {
+		font-family: 'Noto Serif JP', serif;
+		color: #000000;
+		padding-left: 10px;
+	}
+	
+
+
+ 
 }
 
 
 #radio1 {
 	background: #f7f8f8;
 	font-family: extraFont;
-	padding-left: 100px;
+	padding-left: 90px;
 
 }
 
@@ -679,11 +729,11 @@ and (max-device-width : 1024px)
     
 }
 
-#radio1 p {
-	margin-bottom: 20px;
-    font-size: 20px;
-    
+#radio1 .h41 h4{
+	line-height: 10px;
+
 }
+
 
 #radio1 h4 {
 	margin-bottom: 20px;
@@ -691,8 +741,6 @@ and (max-device-width : 1024px)
     text-align:justify;
     margin-left: 20px;
 	font-weight: bold;
-
-    
 }
 
 #radio1 h1 {
@@ -703,9 +751,9 @@ and (max-device-width : 1024px)
 
 
 
-#radio1 p {
-	text-align: center;
-    
+#radio1 .tag-p {
+	
+    padding-left: 450px;
 }
 
 #radio1 img {
