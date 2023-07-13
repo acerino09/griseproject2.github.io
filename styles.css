@@ -294,7 +294,7 @@ h4 span {
 #commentator {
 	font-family: 'Noto Serif JP', serif;
 	color: #000000;
-	padding-left: 150px;
+	padding-left: 400px;
 }
 
 #personality h2,
@@ -664,7 +664,7 @@ and (max-device-width : 1024px)
 #radio1 {
 	background: #f7f8f8;
 	font-family: extraFont;
-	padding-left: 50px;
+	padding-left: 100px;
 
 }
 
